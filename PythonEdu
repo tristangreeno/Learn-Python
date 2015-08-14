@@ -1,0 +1,9 @@
+print "What is your name?\n",
+name = raw_input ()
+print "Where do you live?\n",
+location = raw_input ()
+print "What is your native tongue?\n",
+language = raw_input ()
+
+print "Hello, %r. You live in %r, and you usually speak %r.\n Is this correct?" % (
+	name, location, language)
